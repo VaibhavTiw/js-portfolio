@@ -111,26 +111,27 @@ nav ul li a:hover{
     margin: 0 100px;
 }
 
-
-
-/* .thirdSection{
-        max-width: 80vw;
-        margin: auto;
-        height: 80vh;
+.leftSection .btn{
+    padding: 12px;
+    color: white;
+    background-color: #0088A9;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-.thirdSection h1{
-    font-size: 1.6rem ;
-} */
+
+.leftSection .button{
+    padding: 15px 0px;
+}
 
 
 .footer-left{
     margin-left: auto;
 }
 
-.footer-right form{
-    
-}
 
 .hr2{
     border: 0;
