@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: rgb(0, 0, 33);
+  /* background-color: rgb(0, 0, 33); */
+  background-color: #3b5bb5;
   color: white;
 }
 
@@ -14,7 +15,8 @@ body {
 }
 
 .left:hover {
-  color: #0088a9;
+  /* color: #0088a9; */
+  color: #c9c9c9;
   cursor: pointer;
 }
 
@@ -23,7 +25,8 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 60px;
-  background-color: rgb(18, 18, 62);
+  /* background-color: rgb(18, 18, 62); */
+    background-color: #132a6e;
 }
 
 nav ul {
@@ -44,7 +47,7 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: none;
   cursor: pointer;
-  color: #0088a9;
+  color: #c9c9c9;
   font-size: 1.01rem;
 }
 
@@ -86,13 +89,14 @@ nav ul li a:hover {
 }
 
 .text-grey {
-  color: gray;
+  color: #000;
+  font-weight: 2000;
 }
 
 .hr1 {
   border: 0;
-  height: 1px;
-  background: #9c97f1;
+  height: 2px;
+  background: #fff;
   margin: 30px 84px;
 }
 
@@ -114,7 +118,7 @@ nav ul li a:hover {
 .leftSection .btn {
   padding: 12px;
   color: white;
-  background-color: #0088a9;
+  background-color: #12586a;
   border: 2px solid white;
   border-radius: 3px;
   font-size: 13px;
@@ -138,8 +142,8 @@ nav ul li a:hover {
 
 .hr2 {
   border: 0;
-  background: #9c97f1;
-  height: 1px;
+  background: #fff;
+  height: 2px;
 }
 
 .footer {
@@ -147,12 +151,13 @@ nav ul li a:hover {
   justify-content: space-between;
   /* align-items: center; */
   background-color: #0e0e1a;
+  /* background-color: #082567; */
   height: 233px;
   padding: 23px 122px;
 }
 
 .footer > div {
-  width: 200px;
+  width: 234px;
 }
 
 .footer h1 {
@@ -173,24 +178,24 @@ nav ul li a:hover {
 }
 
 #downloadBtn {
-  padding-right: 72px;
+  padding-right: 12px;
   text-decoration: none;
   color: white;
 }
 
 #submit {
-  padding: 8px 15px;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  margin: 0px 45px;
-  text-transform: uppercase;
-  border-radius: 4px;
-  background-color: gold;
-  color: white;
-  border: none;
-  transition: background-color 0.3s ease;
-  cursor: pointer;
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 44px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: gold;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
 }
 
 #submit:hover {
