@@ -89,7 +89,7 @@ nav ul li a:hover{
     color: gray;
 }
 
-main hr{
+.hr1{
     border: 0;
     height: 1px;
     background: #9c97f1;
@@ -111,6 +111,60 @@ main hr{
     margin: 0 100px;
 }
 
-.footer{
-    display: flex;
+
+
+/* .thirdSection{
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
 }
+
+.thirdSection h1{
+    font-size: 1.6rem ;
+} */
+
+
+.footer-left{
+    margin-left: auto;
+}
+
+.footer-right form{
+    
+}
+
+.hr2{
+    border: 0;
+    background: #9c97f1;
+    height: 1px;
+}
+
+.footer{
+        display: flex;
+        justify-content: space-evenly;
+        /* align-items: center; */
+        background-color: #0e0e1a;
+        height: 233px;
+        padding: 23px 122px;
+}
+
+.footer > div{
+    width: 200px;
+}
+
+.footer h1{
+    font-size: 1rem;
+}
+
+.footer img{
+    width: 10%;
+}
+
+.footer ul{
+    margin: 23px 0;
+}
+
+.footer ul div li{
+    list-style: none;
+    cursor: pointer;
+}
+
