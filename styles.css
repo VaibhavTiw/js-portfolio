@@ -84,14 +84,19 @@ nav ul li a:hover {
   height: 80vh;
 }
 
-.thirdSection{
+/* .thirdSection{
   max-width: 80vw;
   margin: auto;
   height: 80vh;
-}
+} */
 
 .thirdSection h1{
   font-size: 1.6rem;
+  margin-left: 95px;
+}
+
+.thirdSection .hello{
+  margin-left: 95px;
 }
 
 .secondSection h1 {
